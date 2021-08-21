@@ -1,6 +1,8 @@
 package ru.inversion.model;
 
-public class OutData {
+import ru.inversion.gateclasses.classes.Result;
+
+public class OutData extends Result {
     private Client cusinfo = null;
     private String error;
 

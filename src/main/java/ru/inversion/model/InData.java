@@ -1,6 +1,8 @@
 package ru.inversion.model;
 
-public class InData  {
+import ru.inversion.gateclasses.classes.Context;
+
+public class InData extends Context {
     private Long cusnum;
     private Long pr_cusinf;             // Признак (1/0): возвращать основную информацию по клиенту
     private Long pr_cusinf_dop;         // Признак (1/0): возвращать дополнительную информацию по клиенту

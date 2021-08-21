@@ -17,9 +17,9 @@ public class App extends Application {
         return res;
     }
 
-    @Override
-    public Set<Object> getSingletons() {
-        Set<Class<?>> providers = new HashSet<>();
-        return (Set)Collections.unmodifiableSet(providers);
-    }
+//    @Override
+//    public Set<Object> getSingletons() {
+//        Set<Class<?>> providers = new HashSet<>();
+//        return (Set)Collections.unmodifiableSet(providers);
+//    }
 }
